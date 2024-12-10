@@ -65,6 +65,38 @@
 
             <h2>Contato</h2>
             <p>tem um projeto em mente? Entre em ccontato</p>
+            <form action=""> 
+
+                <label for="nome">nome:</label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">telefone:</label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">assunto</label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">orçamernto</option>
+                    <option value="duvida">duvida</option>
+                    <option value="outro">outro</option>
+                </select>
+                
+                <br>
+
+                <label for="mensagem">mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea>
+
+                <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">deseja receber minha newsletter? fique por dentro</label>
+
+                <br>
+
+                <input type="submit" value="enviar mensagem">
+            </form>
         </section>
     </footer>
 
